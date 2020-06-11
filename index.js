@@ -13,8 +13,9 @@ jexiaClient().init({
 }, ums);
 
 
- app.get('/inv/:user_id', function(req, res){
-  const user_id = req.params.user_id
+ app.get('/:user_id?', function(req, res){
+  let user_id = req.params.user_id
+  if (typeof(user_id)==='undefined') {user_id='2d65c22f-77c3-476f-b3e0-48be8f22cdb1'}
   ums.select()
     .where(field => field("id").isEqualTo(user_id))  
     .subscribe(

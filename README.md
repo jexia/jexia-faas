@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - [Node.js](http://nodejs.org/) (with npm or Yarn)
-- [Jexia PRO project](https://jexia.com) - in code you have API Key/ Secret which can be removed any time. 
+- [Jexia PRO project](https://jexia.com) - in code you have API Key/ Secret and User which can be removed any time. 
 
 ## Getting Started
 
