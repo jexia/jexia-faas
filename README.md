@@ -1,15 +1,9 @@
 # JEXIA FAAS example with PDFKit Invoices
 
-<center>
-  <a href="https://pspdfkit.com/web">
-    <img src="./screenshot.png" alt="Screenshot of an invoice PDF in the PSPDFKit for Web reader." width="1009">
-  </a>
-</center>
-
 ## Prerequisites
 
 - [Node.js](http://nodejs.org/) (with npm or Yarn)
-- [Jexia PRO project](https://jexia.com)
+- [Jexia PRO project](https://jexia.com) - in code you have API Key/ Secret which can be removed any time. 
 
 ## Getting Started
 
